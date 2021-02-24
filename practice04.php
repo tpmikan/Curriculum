@@ -3,15 +3,13 @@
 function double($a) {
   return $a * 2;
 }
-echo double(5);
-echo "\n";
+
 
 // 2.
 function f ($a, $b) {
   return $a + $b;
 }
-echo f(2,3);
-echo "\n";
+
 
 // 3.
 function  multiplication ($arr) {
@@ -21,9 +19,7 @@ $b = 1;
   }
   return $b;
 }
-$array = array(1, 3 ,5, 7, 9);
-echo multiplication ($array);
-echo "\n";
+
 
 // 4.
 function max_array ($arr) {
@@ -35,9 +31,7 @@ function max_array ($arr) {
   }
   return $max_number;  
  }  
-$array = array(1,5,7,3,9,8,2);
-echo max_array ($array);
-echo "\n";
+
 
 // 5.
   // strip_tags
