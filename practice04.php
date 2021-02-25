@@ -13,9 +13,9 @@ function f ($a, $b) {
 
 // 3.
 function  multiplication ($arr) {
-$b = 1;
+  $b = 1;
   foreach ($arr as $a) {
-    $b = $b * $a;
+    $b *= $a;
   }
   return $b;
 }
